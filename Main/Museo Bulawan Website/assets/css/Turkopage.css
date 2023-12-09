@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    opacity: 76%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header a {
+    margin-left: -52%;
+}
+
+.header nav a {
+    font-family: Arial;
+    font-size: 15px;
+   
+}
+.logo{
+    font-size: 18px;
+    margin-left: -47%;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.navbar a {
+    position: relative;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2%;
+    background: #FBF100;
+    
+    transition: .3s;
+
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    background-color: #FBF100;
+
+}
+
+.navbar.a:hover{
+    background-color: #FBF100;
+
+}
+
+.header img{
+    width: 40px;
+    margin-left: -40px;
+}
+
+
+.border {
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 35px;
+    margin-top: 5%;
+}
+
+.words p {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: -2.5%;
+    margin-left: 5%;
+}
+
+.words h1 {
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 80%;
+    margin-top: -1.5%;
+}
+
+.words h1:hover {
+    color: #B6AE00;
+    cursor: pointer;
+}
+
+.words h2 {
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 84%;
+    margin-top: -1.2%;
+}
+
+.words h2:hover {
+    color: #B6AE00;
+    cursor: pointer;
+
+}
+
+
+.words h3 {
+    font-family: myFont;
+    margin-top: 7%;
+    margin-left: 5%;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.words h4 {
+    text-align: justify;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+
+.photo img {
+    width: 350px;
+    position: absolute;
+    margin-left: 67%;
+    margin-top: -27%;
+}
+
+.bgbor {
+    background-color: black;
+    width: 100%;
+    padding: 45px;
+    margin-top: 6%;
+}
+
+.bgbor h1 {
+    font-size: 15px;
+    color: white;
+    margin-top: -2.6%;
+    margin-left: 2%;
+}
+
+.bgbor h2 {
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    margin-top: -0%;
+    font-weight: normal;
+    margin-left: 2%;
+}
+
+.ftext p {
+    font-family: Arial;
+    color: #FBF100;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: -5.3%;
+    margin-left: 30%;
+}
+
+.ftext h1 {
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: -0.9%;
+    margin-left: 34%;
+}
+
+.ftext h2 {
+    font-family: Arial;
+    color: #FBF100;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 0.1%;
+    margin-left: 30%;
+}
+
+.ftext h3 {
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: -0.9%;
+    margin-left: 34%;
+}
+
+.ftext h4 {
+    font-family: Arial;
+    color: #FBF100;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 0.2%;
+    margin-left: 30%;
+}
+
+.ftext h5 {
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: -0.9%;
+    margin-left: 34%;
+}
+
+.tfext h1 {
+    font-family: Arial;
+    color: #FBF100;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 0.2%;
+    margin-left: 30%;
+}
+
+.tfext h2 {
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: -0.9%;
+    margin-left: 37%;
+}
+
+.tfext h3 {
+    font-family: Arial;
+    font-size: 10px;
+    color: white;
+    margin-left: 72%;
+    margin-top: -1%;
+    font-weight: normal;
+}
+.ytl img {
+    width: 50px;
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 4%;
+}
+
+.igl img {
+    width: 37px;
+    position: absolute;
+    margin-top: -3.1%;
+    margin-left: 7.4%;
+}
+
+.tkt img {
+    width: 38px;
+    position: absolute;
+    margin-top: -3.1%;
+    margin-left: 10%;
+}
+
+.photos img {
+    width: 50px;
+    margin-left: 75%;
+    margin-top: -4.5%;
+    position: absolute;
+}
+
+.cnimage img {
+    width: 50px;
+    margin-left: 79%;
+    margin-top: -4.5%;
+    position: absolute;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(IMFellEnglish-Regular.ttf);
+}
