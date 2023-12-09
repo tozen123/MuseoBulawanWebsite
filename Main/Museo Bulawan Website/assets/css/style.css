@@ -9,6 +9,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 body {
   background: #fff;
   color: #666666;
@@ -551,7 +553,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial;
   color: #151515;
 }
 
@@ -562,9 +564,10 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-weight: 700;
+  color: #AFA800;
+  font-weight: normal;
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: myFont; 
 }
 
 .about .content ul {
@@ -589,6 +592,19 @@ section {
   margin-bottom: 0;
 }
 
+.about p {
+  font-family: Arial;
+  color: black;
+  font-weight: normal;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.ftext p {
+  font-family: Arial;
+  text-align: right;
+  margin-left: 19%;
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -832,4 +848,9 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(Main/Font/IMFellEnglish-Regular.ttf);
 }
