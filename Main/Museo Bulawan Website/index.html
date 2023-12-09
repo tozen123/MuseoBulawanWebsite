@@ -43,6 +43,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+   <!-- Script CSS Files -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
   <!-- =======================================================
   * Template Name: Imperial
   * Updated: Nov 17 2023 with Bootstrap v5.3.2
@@ -156,49 +160,81 @@
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
                 <img src="assets/img/image 28.png" class="img-fluid" alt="">
                 </div>
-              </div>
 
-              <div class="ftext">
-                <p>Over the years, after having done many activities and exhibits in the museum, it was observed that the space of said <br>
-                  museum inside the capitol building was very much wanting as shown by cramped arrangement of materials. And so,<br>
-                  it was deemed necessary that the museum be transferred to a bigger space. Subsequently, the museum was transferred <br>
-                  upon the advent of the new millennium in the year 2000 to a building juxtaposed to the provincial capitol building
-                   so as to <br> accommodate more materials and more viewers of the exhibits.<br><br>
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                  <p>
+                    Over the years, after having done many activities and exhibits in the museum, it was observed that the space of said museum inside the capitol building was very much wanting as shown by cramped arrangement of materials. And so, it was deemed necessary that the museum be transferred to a bigger space. Subsequently, the museum was transferred upon the advent of the new millennium in the year 2000 to a building juxtaposed to the provincial capitol building so as to accommodate more materials and more viewers of the exhibits.<br><br>
             
-                  There was indeed a tremendous improvement in terms of collections as well as the presentation of museum materials because<br>
-                  of a better location and a bigger space. Because of this, a more systematic technique in museum maintenance, documentation, <br>
-                  research and preservation was put in place. Besides, there had been also a massive campaign for marketing and promotion so as to<br>
-                  increase the number of clientele that the museum serves.<br><br>
-                  
-                  Considering that the distinction of the province of Camarines Norte is its being a place that sits on gold, so to speak, the Provincial <br>
-                  Community Museum of Camarines Norte eventually came to be known as Museo Bulawan which means “golden museum”. As of now, the museum conducts <br>
-                  periodic exhibits, holds various activities for children and adults, keeps collections such as numismatics, a set of portraits of governors, computer <br>
-                  generated panels showing significant moments in our history and an exhibit on local heroes. Similarly, this museum serves as a show window of the rich cultural <br>
-                  heritage and scenic spots of the province of amarines Norte and thus provides an added dimension to the tourism package being offered among travelers and visitors.</p>
+            There was indeed a tremendous improvement in terms of collections as well as the presentation of museum materials because of a better location and a bigger space. Because of this, a more systematic technique in museum maintenance, documentation, research and preservation was put in place. Besides, there had been also a massive campaign for marketing and promotion so as to increase the number of clientele that the museum serves.<br><br>
+            
+            Considering that the distinction of the province of Camarines Norte is its being a place that sits on gold, so to speak, the Provincial Community Museum of Camarines Norte eventually came to be known as Museo Bulawan which means “golden museum”. As of now, the museum conducts periodic exhibits, holds various activities for children and adults, keeps collections such as numismatics, a set of portraits of governors, computer generated panels showing significant moments in our history and an exhibit on local heroes. Similarly, this museum serves as a show window of the rich cultural heritage and scenic spots of the province of amarines Norte and thus provides an added dimension to the tourism package being offered among travelers and visitors.
+        </p>
+                </div>
               </div>
-        
           </div>
   
         </div>
       </section><!-- End About Section -->
     
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-in">
-  
-          <div class="text-center">
-            <h3>Vision</h3>
-            <p> 
-              Museo Bulawan is the leading and the most viewer friendly community museum that serves as the nerve center for education and communication of the rich cultural, artistic and natural heritage and history of Camarines Norte and the ultimate medium for preservation and exhibition of significant objects that strenghten the values of the people and deepen their patriotism and sense of identity.
-  
-  
-            </p>
-            
-          </div>
-  
+   <!-- ======= Cta Section ======= -->
+   <section id="cta" class="cta">
+    <div class="swiper-container" data-aos="zoom-in">
+        <div class="swiper-wrapper">
+            <!-- CTA Slide 1 -->
+            <div class="swiper-slide">
+                <div class="container text-center">
+                    <h3>Vision</h3>
+                    <p>
+                        Museo Bulawan is the leading and the most viewer-friendly community museum that serves as the
+                        nerve center for education and communication of the rich cultural, artistic and natural
+                        heritage and history of Camarines Norte and the ultimate medium for preservation and exhibition
+                        of significant objects that strengthen the values of the people and deepen their patriotism and
+                        sense of identity.
+                    </p>
+                    <br>
+                    <br>
+                   
+                </div>
+            </div>
+
+            <!-- CTA Slide 2 -->
+            <div class="swiper-slide">
+                <div class="container text-center">
+                    <h3>Mission</h3>
+                    <p>
+                      Collect, research, conserve, exhibit and disseminate knowledge of significant past so as to enhance social life and sustain the efforts to social transformation and development. Educate, entertain and excite the various publics through systematic preservation, protection, promotion and publication of the material culture of the society.Sustain the process of social progress through the communicative function of the museum towards inculcation of values, greater appreciation and understanding of arts and culture as well as production of relevant information that boosts the pride of place of the people and their sense of national purpose.
+                    </p>
+                    <br>
+                    <br>
+                </div>
+            </div>
         </div>
-      </section><!-- End Cta Section -->
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+  </section><!-- End Cta Section -->
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '" style="background-color: yellow;  width: 18px; height: 18px;"></span>';
+        },
+      },
+      autoplay: {
+        delay: 5000,
+      },
+    });
+  </script>
       
 
    
