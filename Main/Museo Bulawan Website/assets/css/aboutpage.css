@@ -1,0 +1,430 @@
+*{
+
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.header{
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    opacity: 76%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.titles{
+    font-size: 18px;
+    margin-left: -53%;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.navbar a {
+    position: relative;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2%;
+    background: #FBF100;
+    
+    transition: .3s;
+
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    background-color: #FBF100;
+
+}
+
+.navbar.a:hover{
+    background-color: #FBF100;
+
+}
+
+.header img{
+    width: 40px;
+    margin-left: -40px;
+}
+
+.content h1{
+    margin-top: 180px;
+    font-size: 40px;
+    color: #AFA800;
+    margin-left: 71px;
+}
+
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    height: 357px;
+    margin-left: 71px;
+    margin-right: 650px;
+    text-align: justify;
+
+}
+
+.content img{
+    width: 600px;
+    height: 438px;
+    margin-top: -335px;
+    margin-left: 750px;
+}
+
+
+
+.content2 img{
+    margin-top: 130px;
+    margin-left: 71px;
+    width: 600px;
+    height: 475px;
+}
+
+.content2 p{
+    width: 600px;
+    margin-left: 750px;
+    margin-top: -480px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+
+
+
+#slider {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+ }
+
+.slider h3{
+    margin-top: 100px;
+}
+
+ #slider input[type=radio] {
+    display: none;
+ }
+ #slider label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+ #slides {
+    padding: 10px;
+    position: relative;
+   
+    
+ }
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #slide1:checked ~ #slides .inner {
+    margin-left: 0;
+ }
+ #slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+ }
+ #slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+ }
+ #slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+ }
+ #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    height: 300px;
+
+ }
+ #slides .slide  {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+ }
+
+ .slide  h3{
+    color: #AFA800;
+    font-size: 60px;
+    margin-top: -50px;
+    
+ }
+
+ .slide p{
+    width: 843px;
+    text-align: justify;
+
+
+ }
+
+ #slides .slide_1 {
+    background-image: url(images/mission_vission_bg.png);
+    margin-top: 70px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+ }
+
+
+ #slides .slide_1{
+    margin-top: 100px;
+
+ }
+
+ #slides .slide_2 {
+    background-image: url(images/mission_vission_bg.png);
+    margin-top: 70px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+ }
+
+ #slides .slide_2{
+    margin-top: 100px;
+}
+
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+
+ #slide1:checked ~ #controls label:nth-child(1),
+ #slide2:checked ~ #controls label:nth-child(2)
+ {
+    background-image: url(images/MUSEUM\ lOGO.png);
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+
+ }
+ #slide1:checked ~ #controls label:nth-last-child(2),
+ #slide2:checked ~ #controls label:nth-last-child(1)
+{
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+ #bullets {
+    margin: 150px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius:100%;
+    background: #D9D9D9;
+    margin: 0 10px;
+ }
+ #slide1:checked ~ #bullets label:nth-child(1),
+ #slide2:checked ~ #bullets label:nth-child(2)
+{
+    background: #FBF100;
+ }
+ @media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(1)
+ {
+       margin: 0;
+    }
+    #slides {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+ }
+
+
+ .content3 h4{
+    margin-top: 100px;
+    font-size: 40px;
+    color: #AFA800;
+    margin-left: 71px;
+ }
+
+.content3 .para1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    height: 357px;
+    margin-left: 71px;
+    margin-right: 650px;
+    text-align: justify;
+
+}
+
+.name{
+    font-size: 20px;
+    
+
+}
+
+.content3 img{
+
+height: 438px;
+margin-left: 850px;
+margin-top: -450px;
+}
+
+.content3 .para2{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 71px;
+    text-align: justify;
+    width: 1250px;
+}
+
+.footer {
+   background-color: black;
+   height: 224px;
+   padding: 55px;
+   
+}
+
+.footer h1 {
+   color: white;
+   font-size: 50px;
+   font-weight: normal;
+   margin-top: -3%;
+}
+
+.footer h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: -10px;
+   color: white;
+   font-size: 15px;
+}
+
+.footer img {
+   width: 50px;
+   align-items: center;
+   
+   
+}
+
+.footer .yt_logo{
+   height: 50px;
+}
+
+.footer h3 {
+   color: #ffffff;
+   font-size: 15px;
+   margin-top: -6%;
+   font-family: Arial;
+   font-weight: normal;
+
+   width: 334px;
+   margin-left: 400px;
+   margin-top: -140px;
+}
+
+
+
+.footer h5 {
+   color: #ffffff;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: normal;
+   
+   width: 334px;
+   margin-left: 400px;;
+}
+
+
+.text-content h1 {
+   color: #ffffff;
+   margin-top: 0%;
+   font-size: 15px;
+   font-family: Arial;
+   font-weight: normal;
+   
+   width: 334px;
+   margin-left: 400px;;
+}
+
+.text-content h2{
+   color: #ffffff;
+   margin-top: 0%;
+   font-size: 15px;
+   font-family: Arial;
+   font-weight: normal;
+   
+   width: 355px;
+   margin-left: 400px;
+}
+
+
+.text-content .museo {
+   
+   width: 91px;
+   margin-left: 72%;
+   margin-top: -15%;
+   margin-bottom: 3%;
+}
+
+
+
+.cnsc img {
+   width: 91px;
+   margin-left: 81%;
+   margin-top: -15%;
+   margin-bottom: 7.5%;
+
+}
+
+
+.lastpara p{
+   color: white;
+   margin-top: -82px;
+   margin-left: 71%;
+   font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
