@@ -21,7 +21,7 @@
 }
 
 .header a {
-    margin-left: -52%;
+    margin-left: -48%;
 }
 
 .header nav a {
@@ -104,20 +104,20 @@
 .contento img {
     width: 300px;
     margin-left: 74%;
-    margin-top: -27%;
+    margin-top: -30%;
 }
 
 .footerss {
     background-color: black;
     width: 100%;
-    padding: 40px;
+    padding: 50px;
     margin-top: 7%;
 }
 
 .text1 h1 {
     font-size: 18px;
     color: white;
-    margin-top: -5%;
+    margin-top: -7%;
     margin-left: 3%;
 }
 
@@ -139,13 +139,13 @@
     position: absolute;
     width: 30px;
     margin-left: 6%;
-    margin-top: -2.2%;
+    margin-top: -2.5%;
 }
 
 .tiktok img {
     width: 30px;
     position: absolute;
-    margin-top: -2.2%;
+    margin-top: -2.6%;
     margin-left: 8.4%;
 }
 
@@ -155,7 +155,7 @@
     margin-left: 20%;
     font-size: 10px;
     font-weight: normal;
-    margin-top: -4.2%;
+    margin-top: -5%;
 }
 
 .artifacts-text h2 {
@@ -225,14 +225,14 @@
     width: 50px;
     position: absolute;
     margin-left: 75%;
-    margin-top: -3.7%;
+    margin-top: -4%;
 }
 
 .cn img {
     width: 50px;
     position: absolute;
     margin-left: 79%;
-    margin-top: -3.7%;
+    margin-top: -4%;
 }
 
 .cn h1 {

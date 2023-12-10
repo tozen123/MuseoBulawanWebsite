@@ -254,6 +254,18 @@ h6 {
   border: 2px solid #03C4EB;
 }
 
+
+.container img {
+  margin-left: -90%;
+}
+
+.container h1 {
+  font-family: myFont;
+  color: white;
+  font-size: 20px;
+  margin-left: -55%;
+  margin-top: 2%;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -348,7 +360,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #03C4EB;
+  color: yellow;
 }
 
 .navbar .dropdown ul {
@@ -615,7 +627,14 @@ section {
   font-size: 12px;
 }
 
+.imagec img {
+  margin-left: 10%;
+}
 
+
+.imageb img {
+  margin-left: 5%;
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -732,6 +751,14 @@ section {
   }
 }
 
+.turko img {
+  margin-left: 10%;
+}
+
+
+/*--------------------------------------------------------------
+# Artifacts Page
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Footer

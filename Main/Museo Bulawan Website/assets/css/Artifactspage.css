@@ -21,7 +21,7 @@
 }
 
 .header a {
-    margin-left: -52%;
+    margin-left: -45%;
 }
 
 .header nav a {
@@ -160,37 +160,35 @@
     font-size: 20px;
     font-weight: normal;
     margin-left: 72%;
-    margin-top: -8%;
+    margin-top: -9%;
 }
 
 .footer {
     background-color: black;
-    padding: 55px;
+    padding: 1.2px;
+    margin-top: 11%;
     
 }
 
 .footer h1 {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
-    margin-top: -3%;
+    margin-top: -0%;
+    margin-left: 3%;
 }
 
 .footer h2 {
     color: white;
     font-size: 10px;
-}
-
-.footer img {
-    width: 25px;
-    margin-top: 1%
+    margin-left: 3%;
 }
 
 .footer h3 {
     color: yellow;
     font-size: 12px;
     margin-left: 20%;
-    margin-top: -6%;
+    margin-top: -2%;
     font-family: Arial;
     font-weight: normal;
 }
@@ -258,4 +256,25 @@
     margin-bottom: 3%;
     font-size: 8px;
     font-family: Arial;
+}
+
+.ytl img {
+    width: 40px;
+    margin-top: -5%;
+    margin-left: 3%;
+    position: absolute;
+}
+
+.igl img {
+    width: 30px;
+    margin-top: -5%;
+    margin-left: 6%;
+    position: absolute;
+}
+
+.tkt img {
+    width: 30px;
+    margin-top: -5%;
+    margin-left: 8%;
+    position: absolute;
 }
