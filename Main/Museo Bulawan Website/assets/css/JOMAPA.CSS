@@ -41,9 +41,37 @@
     font-weight: 500;
     text-decoration: none;
     margin-left: 30px;
+    font-family: Arial;
 
 }
 
+.ty h1 {
+    color: black;
+    font-family: Arial;
+    font-weight: normal;
+    margin-left: 80%;
+    position: absolute;
+    font-size: 15px;
+    margin-top: -5.5%;
+}
+
+.ty h1:hover {
+    color: yellow;
+}
+
+.ty h2 {
+    color: black;
+    font-family: Arial;
+    font-weight: normal;
+    margin-left: 84%;
+    position: absolute;
+    font-size: 15px;
+    margin-top: -5.5%;
+}
+
+.ty h2:hover {
+    color: yellow;
+}
 .navbar a::before {
     content: '';
     position: absolute;
@@ -74,12 +102,20 @@
 }
 
 .border {
-    margin-top: 75px;
     background-color: #D9D9D9;
+    width: 99%;
+    padding: 35px;
+    margin-top: -7.9%;
+    position: absolute;
+}
+
+.wety h1 {
+    color: black;
+    font-family: Arial;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 5px;
-    
+    margin-left: 3%;
+    margin-top: -6%;
+    position: absolute;
 }
 
 .content h1{
@@ -101,10 +137,10 @@
 }
 
 .content img{
-    width: 620px;
-    height: 630px;
-    margin-top: -450px;
-    margin-left: 750px;
+    width: 500px;
+    height: 620px;
+    margin-top: -34%;
+    margin-left: 50%;
 }
 
 
@@ -112,23 +148,23 @@
     margin-top: -1200px;
     margin-left: 71px;
     width: 550px;
-    height: 720px;
+    height: 600%;
 }
 
 .content2 p{
    width: 500px;
-    margin-left: 872px;
+    margin-left: 50%;
     margin-top: 200px;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serifs;
+    font-family: Arial;
 }
 
 
-.content3 .para1{
-    font-family: Arial, Helvetica, sans-serif;
+.content3 p{
+    font-family: Arial;
     width: 550px;
     height: 357px;
-    margin-left: 71px;
+    margin-left: 5%;
     margin-right: 650px;
     margin-top: 100px;
     text-align: justify;
@@ -137,116 +173,148 @@
 
 .content3 img{
 
-    margin-left: 880px;
-    margin-top: -500px;
+    margin-left: 50%;
+    margin-top: -27%;
+    position: absolute;
     width: 500px;
-    height: 290px;
+    height: 300px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    padding: 50px;
+    margin-top: 5%;
+}
+
+.fontex p {
+    color: white;
+    font-size: 18px;
+    margin-top: -7%;
+    margin-left: 5%;
+}
+
+.fontex h1 {
+    font-size: 12px;
+    color: white;
+    margin-top: -1%;
+    margin-left: 5%;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+.yt img {
+    width: 40px;
+    margin-left: 5%;
+    margin-top: -0.5%;
+}
+
+.ig img {
+    width: 30px;
+    position: absolute;
+    margin-top: -2.5%;
+    margin-left: 8%;
+}
+
+.tiktok img {
+    width: 32px;
+    position: absolute;
+    margin-top: -2.6%;
+    margin-left: 10%;
+}
+
+.artinfo p {
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 30%;
+    margin-top: -5.5%;
+    color: yellow;
+}
+
+.artinfo h1 {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 34%;
+    margin-top: -1.9%;
+    color: white;
+}
+
+.artinfo h2 {
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 30%;
+    margin-top: -0.5%;
+    color: yellow;
+    font-weight: normal;
+}
+
+.artinfo h3 {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 34%;
+    margin-top: -1.7%;
+    color: white;
+}
+
+.artinfo h4 {
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 30%;
+    margin-top: -1%;
+    color: yellow;
+    font-weight: normal;
+}
+
+.artinfo h5 {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 34%;
+    margin-top: -2.1%;
+    color: white;
+}
+
+.artinfo h6 {
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 30%;
+    margin-top: -1.5%;
+    color: yellow;
+    font-weight: normal;
+}
+
+.info p {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 38%;
+    margin-top: -3.1%;
+    color: white;
+}
+
+.artimage img {
+    width: 60px;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -6%;
+}
+
+.articn img {
+    width: 60px;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -6%;
+}
+
+.ttext p {
+    font-family: Arial;
+    color: white;
+    margin-left: 69%;
+    margin-top: -1%;
+    font-size: 9px;
 }
 
 
-.footer {
-    margin-top: 100px;
-    background-color: black;
-    height: 224px;
-    padding: 55px;
-    
- }
- 
- .footer h1 {
-    color: white;
-    font-size: 50px;
-    font-weight: normal;
-    margin-top: -3%;
- }
- 
- .footer h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -10px;
-    color: white;
-    font-size: 15px;
- }
- 
- .footer img {
-    width: 50px;
-    align-items: center;
-    
-    
- }
- 
- .footer .yt_logo{
-    height: 50px;
- }
- 
- .footer h3 {
-    color: #ffffff;
-    font-size: 15px;
-    margin-top: -6%;
-    font-family: Arial;
-    font-weight: normal;
- 
-    width: 334px;
-    margin-left: 400px;
-    margin-top: -140px;
- }
- 
- 
- 
- .footer h5 {
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: normal;
-    
-    width: 334px;
-    margin-left: 400px;;
- }
- 
- 
- .text-content h1 {
-    color: #ffffff;
-    margin-top: 0%;
-    font-size: 15px;
-    font-family: Arial;
-    font-weight: normal;
-    
-    width: 334px;
-    margin-left: 400px;;
- }
- 
- .text-content h2{
-    color: #ffffff;
-    margin-top: 0%;
-    font-size: 15px;
-    font-family: Arial;
-    font-weight: normal;
-    
-    width: 355px;
-    margin-left: 400px;
- }
- 
- 
- .text-content .museo {
-    
-    width: 91px;
-    margin-left: 72%;
-    margin-top: -15%;
-    margin-bottom: 3%;
- }
- 
- 
- 
- .cnsc img {
-    width: 91px;
-    margin-left: 81%;
-    margin-top: -15%;
-    margin-bottom: 7.5%;
- 
- }
- 
- 
- .lastpara p{
-    color: white;
-    margin-top: -82px;
-    margin-left: 71%;
-    font-size: 11px;
- }
+
