@@ -1050,6 +1050,34 @@ section {
   background: #ffcd6b;
 }
 
+.ft-main
+{
+  display: table-row;
+  text-align: center;
+
+  
+}
+.ft-logo
+{
+  width: 30%; 
+  display: table-cell;
+
+  margin: 5%;
+  border: solid white 1px;
+}
+
+.ft-logo img{
+  width: 50%;
+  margin: 5%;
+}
+
+.ft-t
+{
+  font-size:14px;
+  border: solid white 1px;
+  text-align: center;
+  margin: 5%;
+}
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
@@ -1096,5 +1124,49 @@ section {
   margin-left: 5%;
   margin-right: 5%;
 
+
+}
+
+.content-block
+{
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  padding: 2%;
+
+  display: flex;
+  
+
+}
+
+.content-block h1
+{
+  
+ 
+  text-align: center;
+ 
+}
+
+.content-border
+{
+  width: 15%;
+  margin-right: 5%;
+}
+
+.content-border img {
+  
+  width: 100%;
+}
+
+
+.content-actual
+{
+  
+  transform: translate(0, -100%);
+}
+
+.heroes-content
+{
   border: solid black 1px;
 }
