@@ -6,37 +6,6 @@
 }
 
 
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background: black;
-    opacity: 76%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.header a {
-    margin-left: -45%;
-}
-
-.header nav a {
-    font-family: Arial;
-    font-size: 15px;
-   
-}
-.logo{
-    font-size: 18px;
-    margin-left: -47%;
-    color: white;
-    text-decoration: none;
-
-}
-
 
 .navbar a {
     position: relative;
