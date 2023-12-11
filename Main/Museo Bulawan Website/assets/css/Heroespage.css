@@ -2,295 +2,228 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background: black;
-    opacity: 76%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.header a {
-    margin-left: -48%;
-}
-
-.header nav a {
-    font-family: Arial;
-    font-size: 15px;
-   
-}
-.logo{
-    font-size: 18px;
-    margin-left: -47%;
-    color: white;
-    text-decoration: none;
-
-}
-
-
-.navbar a {
-    position: relative;
-    font-size: 12px;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-
-}
-
-.navbar a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2%;
-    background: #FBF100;
     
-    transition: .3s;
 
 }
 
-.navbar a:hover::before {
-    width: 100%;
-    background-color: #FBF100;
-
+.heroes-content .filter {
+    background-color: #ffffff;
+    padding: 10px;
+    top: 273px;
+    text-align: center;
 }
 
-.navbar.a:hover{
-    background-color: #FBF100;
-
+.heroes-content .filter p {
+    display: inline-block;
+    margin: 5px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bolder;
 }
 
-.header img{
-    width: 40px;
-    margin-left: -40px;
+.heroes-content .filter p:hover {
+    background-color: #fff700;
+    padding: 10px;
+    border-radius: 10px; /* Change to your desired hover color */
 }
 
-.fontext p {
-    font-family: Arial;
-    font-weight: normal;
-    color: black;
+/* Additional styles for specific classes inside .filter */
+.heroes-content .filter p.all {
+    color: #333;
+}
+
+.heroes-content .filter p.local {
+    color: #333;
+}
+
+.heroes-content .filter p.national {
+    color: #333;
+}
+
+
+
+.images img.img1 {
+    width: 323px;
+    height: 323px;
+    position: relative;
+    top: 5px;
+    left: 10%;
+}
+
+.images img.img2 {
+    width: 312px;
+    height: 445px;
+    position: relative;
+    top: -415px;
+    left: 38%;
+}
+
+.images img.img3 {
+    width: 300px;
+    height: 374px;
+    position: relative;
+    top: -451px;
+    left: 40.5%;
+}
+
+
+.images img.img4 {
+    width: 267px;
+    height: 385px;
+    position: relative;
+    top: -91px;
+    left: -37%;
+}
+
+.images img.img5 {
+    width: 339px;
+    height: 257px;
+    position: relative;
+    top: -28px;
+    left: -34.5%;
+}
+
+.images img.img6 {
+    width: 305px;
+    height: 340px;
+    position: relative;
+    margin-top: -610px;
+
+    left: 65%;
+}
+
+
+.heroes-content p {
+    font-size: 20px;
     margin-top: 10%;
     margin-left: 5%;
-    font-size: 10px;
+    font-family: Arial;
+    font-size: 15px;        
 }
 
-.fontext h1 {
+.heroes-content h1 {
+    font-size: 30px;
+    margin-left: 5%;
     color: #AFA800;
-    font-size: 25px;
-    margin-top: 0%;
-    margin-left: 5%;
     font-weight: normal;
 }
 
-.fontext nav {
-    text-align: center;
-    margin-top: 2%;
-}
+.heroes-content .f
 
-.fontext nav a {
-    position: relative;
-    color: black;
-    font-family: Arial;
-    justify-content: center;
-    padding: 0 2rem;
-    align-items: center;
-    transition: 0.5 ease;
-    border: 1px solid transparent;
-}
-
-.fontext nav a:hover {
-    background-color: yellow;
-    color: black;
-    cursor: pointer;
-}
-
-.images img {
-    width: 300px;
-    position: absolute;
-    margin-left: 5%;
-    margin-top: 3%;
-}
-
-.images1 img {
-    width: 210px;
-    position: absolute;
-    margin-left: 28%;
-    margin-top: 3%;
-}
-
-.images2 img {
-    width: 240px;
-    position: absolute;
-    margin-left: 45%;
-    margin-top: 3%;
-}
-
-.images3 img {
-    width: 210px;
-    position: absolute;
-    margin-left: 65%;
-    margin-top: 3%;
-}
-
-.images4 img {
-    height: 41%;
-    width: 230px;
-    position: absolute;
-    margin-left: 82%;
-    margin-top: 3%;
-}
-
-.images5 img {
-    width: 300px;
-    position: absolute;
-    margin-left: 42%;
-    margin-top: 25%;
-}
-
-.footer {
-    background-color: black;
-    width: 100%;
-    padding: 50px;
-    margin-top: 44%;
-}
-
-.fontex p {
-    color: white;
-    font-size: 18px;
-    margin-top: -7%;
-    margin-left: 5%;
-}
-
-.fontex h1 {
-    font-size: 12px;
-    color: white;
-    margin-top: -0%;
-    margin-left: 5%;
-    font-family: Arial;
-    font-weight: normal;
-}
 
 .yt img {
     width: 40px;
-    margin-left: 5%;
-    margin-top: 1%;
+    margin-left: 3%;
 }
 
 .ig img {
-    width: 32px;
     position: absolute;
+    width: 30px;
+    margin-left: 6%;
     margin-top: -2.5%;
-    margin-left: 8%;
 }
 
-.tkt img {
-    width: 35px;
+.tiktok img {
+    width: 30px;
     position: absolute;
     margin-top: -2.6%;
-    margin-left: 10%;
+    margin-left: 8.4%;
 }
 
-.artinfo p {
-    font-family: Arial;
-    font-size: 12px;
-    margin-left: 30%;
-    margin-top: -6%;
+.artifacts-text h1 {
     color: yellow;
-}
-
-.artinfo h1 {
     font-family: Arial;
-    font-size: 12px;
+    margin-left: 20%;
+    font-size: 10px;
     font-weight: normal;
-    margin-left: 34%;
-    margin-top: -0.9%;
-    color: white;
-}
-
-.artinfo h2 {
-    font-family: Arial;
-    font-size: 12px;
-    margin-left: 30%;
-    margin-top: 0.2%;
-    color: yellow;
-    font-weight: normal;
-}
-
-.artinfo h3 {
-    font-family: Arial;
-    font-size: 12px;
-    font-weight: normal;
-    margin-left: 34%;
-    margin-top: -0.9%;
-    color: white;
-}
-
-.artinfo h4 {
-    font-family: Arial;
-    font-size: 12px;
-    margin-left: 30%;
-    margin-top: 0.2%;
-    color: yellow;
-    font-weight: normal;
-}
-
-.artinfo h5 {
-    font-family: Arial;
-    font-size: 12px;
-    font-weight: normal;
-    margin-left: 34%;
-    margin-top: -0.9%;
-    color: white;
-}
-
-.artinfo h6 {
-    font-family: Arial;
-    font-size: 12px;
-    margin-left: 30%;
-    margin-top: 0.2%;
-    color: yellow;
-    font-weight: normal;
-}
-
-.info p {
-    font-family: Arial;
-    font-size: 12px;
-    font-weight: normal;
-    margin-left: 38%;
-    margin-top: -1%;
-    color: white;
-}
-
-.artimage img {
-    width: 60px;
-    position: absolute;
-    margin-left: 70%;
     margin-top: -5%;
 }
 
-.articn img {
-    width: 60px;
+.artifacts-text h2 {
+    color: white;
+    font-family: Arial;
+    margin-left: 23%;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -0.7%;
+}
+
+.artifacts-text h3 {
+    color: yellow;
+    font-family: Arial;
+    margin-left: 20%;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -0%;
+}
+
+.artifacts-text h4 {
+    color: white;
+    font-family: Arial;
+    margin-left: 23%;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -0.7%;
+}
+
+.artifacts-text h5 {
+    color: yellow;
+    font-family: Arial;
+    margin-left: 20%;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -0%;
+}
+
+.artifacts-text h6 {
+    color: white;
+    font-family: Arial;
+    margin-left: 23%;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -0.7%;
+}
+
+.artitext h1 {
+    color: yellow;
+    font-family: Arial;
+    margin-left: 20%;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -0%;
+}
+
+.artitext h2 {
+    color: white;
+    font-family: Arial;
+    margin-left: 26%;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -0.7%;
+}
+
+.logs img {
+    width: 50px;
     position: absolute;
     margin-left: 75%;
-    margin-top: -5%;
+    margin-top: -4%;
 }
 
-.ttext p {
-    font-family: Arial;
-    color: white;
-    margin-left: 69%;
-    margin-top: -0%;
-    font-size: 9px;
+.cn img {
+    width: 50px;
+    position: absolute;
+    margin-left: 79%;
+    margin-top: -4%;
 }
+
+.cn h1 {
+    color: white;
+    font-family: Arial;
+    margin-left: 72%;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: -0%;
+}
+
+
