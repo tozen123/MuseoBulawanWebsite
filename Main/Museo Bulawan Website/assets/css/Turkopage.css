@@ -24,7 +24,7 @@
 }
 
 .header a {
-    margin-left: -52%;
+    margin-left: -48%;
 }
 
 .header nav a {
@@ -40,6 +40,9 @@
 
 }
 
+.words a {
+    text-decoration: none;
+}
 
 .navbar a {
     position: relative;
@@ -248,7 +251,7 @@
     font-size: 10px;
     color: white;
     margin-left: 72%;
-    margin-top: -1%;
+    margin-top: -2%;
     font-weight: normal;
 }
 .ytl img {
@@ -275,14 +278,14 @@
 .photos img {
     width: 50px;
     margin-left: 75%;
-    margin-top: -4.5%;
+    margin-top: -5%;
     position: absolute;
 }
 
 .cnimage img {
     width: 50px;
     margin-left: 79%;
-    margin-top: -4.5%;
+    margin-top: -5%;
     position: absolute;
 }
 
