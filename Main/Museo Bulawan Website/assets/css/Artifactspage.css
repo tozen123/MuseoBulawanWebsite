@@ -8,21 +8,23 @@
 
 
 
-.content-text p {
-    font-size: 20px;
-    margin-top: 10%;
-    margin-left: 5%;
+.ft p {
     font-family: Arial;
-    font-size: 15px;        
-}
-
-.content-text h1 {
-    font-size: 30px;
-    margin-left: 5%;
-    color: #AFA800;
     font-weight: normal;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: black;
 }
 
+.h2 h1 {
+    color: yellowgreen;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: normal;
+    margin-left: 5%;
+    margin-top: -2%;
+}
 .content-text h2 {
     font-size: 15px;
     margin-left: 5%;
@@ -33,9 +35,9 @@
 }
 
 .cont img {
-    width: 250px;
+    width: 270px;
     margin-left: 12%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .content img {
@@ -53,9 +55,9 @@
 }
 
 .coust img {
-    width: 250px;
+    width: 270px;
     margin-left: 40%;
-    margin-top: -21%;
+    margin-top: -25%;
     margin-bottom: 1.2%;
 }
 
@@ -76,22 +78,22 @@
 .cort img {
     width: 270px;
     margin-left: 70%;
-    margin-top: -40%;
+    margin-top: -30%;
     margin-bottom: 2.2%;
 }
 
 .teaplan img {
     width: 270px;
     margin-left: 70%;
-    margin-top: -20%;
+    margin-top: -35%;
     margin-bottom: 8%;
 }
 
 .teaplan h1 {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: normal;
     margin-left: 72%;
-    margin-top: -8%;
+    margin-top: -15%;
 }
 
 .footer {
