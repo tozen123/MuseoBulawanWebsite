@@ -11,21 +11,23 @@
     margin-left: -40px;
 }
 
-.content-text p {
-    font-size: 20px;
-    margin-top: 9%;
-    margin-left: 5%;
+.ban p {
     font-family: Arial;
-    font-size: 15px;        
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 3%;
+    color: black;
+    margin-left: 5%;
 }
 
-.content-text h1 {
+.ban h1 {
+    font-family: myFont;
+    font-weight: normal;
+    color: yellowgreen;
     font-size: 30px;
     margin-left: 5%;
-    color: #AFA800;
-    font-weight: normal;
+    margin-top: -2%;
 }
-
 .content-text h2 {
     width: 680px;
     font-size: 15px;
