@@ -42,6 +42,11 @@
 }
 
 
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
 
 .images img.img1 {
     width: 323px;
@@ -244,9 +249,29 @@
     margin-left: -1.5%;
   }
 
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+  }
+
   .container-right h1 {
     font-weight: normal;
     margin-top: -5%;
   }
+
+
+
+  
+@media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide (tablets) */
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide (mobile devices) */
+  }
+
+
+
 
 
