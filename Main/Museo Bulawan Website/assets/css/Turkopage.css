@@ -80,7 +80,6 @@
     margin-left: 71px;
 }
 
-<<<<<<< HEAD
 .content p{
     font-family: Arial, Helvetica, sans-serif;
     width: 550px;
@@ -93,57 +92,9 @@
 
 .content img{
     width: 500px;
-    height: 450px;
-    margin-top: -400px;
+    height: 480px;
+    margin-top: -500px;
     margin-left: 690px;
-=======
-
-
-.words h1 {
-    color: black;
-    font-family: Arial;
-    font-size: 14px;
-    margin-left: 80%;
-    margin-top: -2%;
-}
-
-.words h1:hover {
-    color: #B6AE00;
-    cursor: pointer;
-}
-
-.words h2 {
-    font-family: Arial;
-    font-size: 14px;
-    margin-left: 84%;
-    margin-top: 5%;
-    color: black;
-}
-
-.words h2:hover {
-    color: #B6AE00;
-    cursor: pointer;
-
-}
-
-
-.words h3 {
-    font-family: myFont;
-    margin-top: 5%;
-    margin-left: 10%;
-    color: yellowgreen;
-    font-size: 25px;
-    font-weight: normal;
-}
-
-.words h4 {
-    text-align: justify;
-    font-family: Arial;
-    font-weight: normal;
-    font-size: 15px;
-    margin-left: 10%;
-    margin-right: 37%;
->>>>>>> 33d7bad5777d42821f0e3b33c6a7bdb6d6c7ab07
 }
 
 
