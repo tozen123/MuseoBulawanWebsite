@@ -78,56 +78,181 @@
 
     </div>
 
-    <div class="footer"></div>
-
-    <div class="fontex">
-        <p>Museo Bulawan</p>
-        <h1>Connected with us</h1>
-    </div>
-
-    <div class="yt">
-        <img src="../Images/ytlogo.png" alt="ytlogo">
-    </div>
-
-    <div class="ig">
-        <img src="../Images/IGLogo.png" alt="IGLogo">
-    </div>
-
-    <div class="tiktok">
-        <img src="../Images/Tiktoklogo.png" alt="Tiktoklogo">
-    </div>
-
-    <div class="artinfo">
-        <p>Address:</p>
-        <h1> 3 Justo Lukban St, Daet, 4600 Camarines Norte</h1>
-        <h2>Phone:</h2>
-        <h3> 0951 926 0196</h3>
-        <h4>Email:</h4>
-        <h5>bulawanmuseo@gmail.com</h5>
-        <h6>Visiting Schedule:</h6>
-    </div>
-
-    <div class="info">
-        <p>Monday-Friday, 9:00 AM - 5:00 PM  </p>
-    </div>
-
-    <div class="artimage">
-        <img src="../Images/mUSEUM lOGO.png" alt="museo_logo">
-    </div>
-
-    <div class="articn">
-        <img src="../Images/CNSC_Logo_-_White_Border.png" alt="CNSCLOGO">
-    </div>
-
-    <div class="ttext">
-        <p>In collaboration with Camarines Norte State College</p>
-    </div>
-
-    
 
 
+    <footer id="footer">
+        <div class="container-left">
+            <h3>Museo Bulawan</h3>
+            <p>Connect With Us</p>
+            <div class="social-links">
+                <a href="#" class="twitter"
+                    ><i class="bx bxl-twitter"></i>
+                </a>
+                <a href="#" class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                ></a>
+                    ><i class="bx bxl-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="container-mid">
+            <ul>
+                <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#"
+                        ><span style="color: yellow; font-size: 18px"
+                            >Address:</span
+                        >
+                        3 Justo Lukban St, Daet, 4600 Camarines Norte</a
+                    >
+                </li>
+                <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#"
+                        ><span style="color: yellow; font-size: 18px"
+                            >Phone:</span
+                        >
+                        0951 926 0196</a
+                    >
+                </li>
+                <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#"
+                        ><span style="color: yellow; font-size: 18px"
+                            >Email:</span
+                        >
+                        bulawanmuseo@gmail.com</a
+                    >
+                </li>
+                <li>
+                    <i class="bx bx-chevron-right"></i>
+                    <a href="#"
+                        ><span style="color: yellow; font-size: 18px"
+                            >Visiting Schedule:</span
+                        >
+                        Monday-Friday, 9:00 AM - 5:00 PM</a
+                    >
+                </li>
+            </ul>
+        </div>
+        <div class="container-right">
+            <div>
+                <img src="../Museo Bulawan Website/assets/img/logo.png" alt="MuseumLogo" />
+                <img src="../Museo Bulawan Website/assets/img/cnsc logo.png" alt="CNSCLOGO" />
+            </div>
+            <h1>In collaboration with Camarines Norte State College</h1>
+        </div>
+    </footer>
         
-    
-
 </body>
 </html>
+
+<style>
+    #footer {
+        background: #151515;
+        /* padding: 0 0 30px 0; */
+        color: #fff;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 2%;
+        > .container-left {
+            margin-bottom: 30px;
+  
+            > h3 {
+                font-size: 28px;
+                margin: 0 0 20px 0;
+                padding: 2px 0 2px 0;
+                line-height: 1;
+                font-weight: 700;
+                text-transform: uppercase;
+  
+                > span {
+                    color: #ffc451;
+                }
+            }
+            > p {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 0;
+                font-family: "Raleway", sans-serif;
+                color: #fff;
+            }
+  
+            .social-links a {
+                font-size: 18px;
+                display: inline-block;
+                background: #292929;
+                color: #fff;
+                line-height: 1;
+                padding: 8px 0;
+                margin-right: 4px;
+                border-radius: 4px;
+                text-align: center;
+                width: 36px;
+                height: 36px;
+                transition: 0.3s;
+  
+                &:hover {
+                    background: #ffc451;
+                    color: #151515;
+                    text-decoration: none;
+                }
+            }
+        }
+  
+        > .container-mid {
+            > ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+  
+                > li {
+                    padding: 10px 0;
+                    display: flex;
+                    align-items: center;
+  
+                    > i {
+                        padding-right: 2px;
+                        color: #ffc451;
+                        font-size: 18px;
+                        line-height: 1;
+                    }
+  
+                    > a {
+                        color: #fff;
+                        transition: 0.3s;
+                        display: inline-block;
+                        line-height: 1;
+                        text-decoration: none;
+                        font-family: "Raleway", sans-serif;
+  
+                        &:hover {
+                            color: #ffc451;
+                        }
+                    }
+                }
+            }
+        }
+  
+        > .container-right {
+            > div {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+  
+                > img {
+                    height: 100px;
+                    margin: 5px 10px 30px 20px;
+                }
+            }
+            > h1 {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 0;
+                color: #fff;
+                font-family: "Raleway", sans-serif;
+            }
+        }
+    }
+    </style>

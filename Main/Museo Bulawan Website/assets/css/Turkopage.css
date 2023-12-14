@@ -88,13 +88,13 @@
     background-color: #D9D9D9;
     width: 100%;
     padding: 35px;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .words p {
     font-family: Arial;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     color: black;
     margin-top: -2.5%;
     margin-left: 5%;
@@ -105,7 +105,7 @@
     font-family: Arial;
     font-size: 14px;
     margin-left: 80%;
-    margin-top: -1.5%;
+    margin-top: -2%;
 }
 
 .words h1:hover {
@@ -118,6 +118,7 @@
     font-size: 14px;
     margin-left: 84%;
     margin-top: -1.2%;
+    color: black;
 }
 
 .words h2:hover {
@@ -148,7 +149,7 @@
     width: 350px;
     position: absolute;
     margin-left: 67%;
-    margin-top: -27%;
+    margin-top: -34%;
 }
 
 .bgbor {
