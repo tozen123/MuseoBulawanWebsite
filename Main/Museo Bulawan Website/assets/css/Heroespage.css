@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,23 @@
 
 }
 
+.fot p {
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.fot h1 {
+    font-family: myFont;
+    font-size: 30px;
+    color: yellowgreen;
+    font-weight: normal;
+    margin-left: 5%;
+    margin-top: -2.5%;
+}
 .heroes-content .filter {
     background-color: #ffffff;
     padding: 10px;
@@ -260,7 +279,10 @@ img {
     margin-top: -5%;
   }
 
-
+  @font-face {
+    font-family: myFont;
+    src: url(KaushanScript-Regular.ttf);
+}
 
   
 @media only screen and (max-width: 768px) {
