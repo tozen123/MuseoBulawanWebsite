@@ -243,3 +243,26 @@
     font-weight: normal;
     margin-top: -1%;
 }
+
+.social-links img {
+    width: 45px;
+    position: absolute;
+    margin-top: -0.5%;
+    margin-left: -1.7%;
+  }
+  
+  .facebook img {
+    width: 35px;
+    margin-left: -1.2%;
+  }
+  
+  .tiktok img {
+    width: 40px;
+    margin-top: -0.7%;
+    margin-left: -1.5%;
+  }
+
+  .container-right h1 {
+    font-weight: normal;
+    margin-top: -5%;
+  }
