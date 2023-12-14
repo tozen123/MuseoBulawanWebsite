@@ -8,13 +8,13 @@
 
 .header{
     position: fixed;
+    opacity: 0%;
 
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 100px;
     background: black;
-    opacity: 76%;
     display:flex;
     justify-content: space-between;
     align-items: center;
