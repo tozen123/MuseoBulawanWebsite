@@ -103,24 +103,24 @@
 }
 
 .content img{
-    width: 620px;
+    width: 520px;
     height: 600px;
     margin-top: -450px;
-    margin-left: 50%;
+    margin-left: 55%;
 }
 
 
 .content2 img{
     margin-top: -600px;
     margin-left: 71px;
-    width: 550px;
+    width: 520px;
     height: 520px;
 }
 
 .content2 p{
    width: 500px;
     margin-left: 55%;
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serifs;
 }
@@ -134,15 +134,19 @@
     margin-right: 650px;
     margin-top: 100px;
     text-align: justify;
+    padding-bottom: 35%;
+    
 
 }
 
 .content3 img{
 
-    margin-left: 50%;
-    margin-top: -400px;
+    margin-left: 55%;
+    margin-top: -450px;
     width: 500px;
-    height: 570px;
+    height: 650px;
+    padding-bottom: 10%;
+    
 }
 
 
